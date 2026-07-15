@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\LuaStringDecoder.cs" Link="LuaStringDecoder.cs" />
+    <Compile Include="..\..\DecompilerService.cs" Link="DecompilerService.cs" />
+    <Compile Include="..\..\SessionResultStore.cs" Link="SessionResultStore.cs" />
+    <Compile Include="..\..\VirtualTextViewer.cs" Link="VirtualTextViewer.cs" />
+    <Compile Include="..\..\AppSettings.cs" Link="AppSettings.cs" />
+  </ItemGroup>
+</Project>
